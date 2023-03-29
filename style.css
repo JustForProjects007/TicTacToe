@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.TotalBlocksContainer {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #fff;
+}
+
+.Cubic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: #1d1b31;
+    transition: all .3s ease-in-out;
+}
+
+.Cubic:hover {
+    background-color: #312e53;
+}
+
+.clearButton {
+    cursor: pointer;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 3rem;
+    border: 1px solid #1d1b31;
+    outline: none;
+    color: #1d1b31;
+    font-size: 20px;
+    border-radius: 1rem;
+    transition: all .3s ease-in-out;
+}
+
+.clearButton:hover {
+    background-color: #1d1b31;
+    color: #fff;
+}
